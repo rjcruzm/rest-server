@@ -51,12 +51,6 @@ const usuariosPut = async(req, res = response) => {
     res.json(usuario);
 }
 
-const usuariosPatch = (req, res = response) => {
-    res.json({
-        msg: 'Patch API - controlador',
-    });
-}
-
 const usuariosDelete = async(req, res = response) => {
 
     const { id } = req.params;
